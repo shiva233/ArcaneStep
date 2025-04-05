@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wizard Exercise Spell Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <!-- Character area -->
+        <div class="character-area">
+            <div class="wizard">
+                <img src="Wizard.png" alt="Wizard character">
+            </div>
+            <div class="enemy">
+                <img src="Enemy.png" alt="Enemy character">
+                <div class="health-container">
+                    <div class="health-bar" id="enemy-health"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Spell casting area -->
+        <div class="spell-area">
+            <div class="spell-name" id="current-spell">Fire Ball</div>
+            <div class="spell-instructions">Complete these movements to cast:</div>
+            <div class="movement-container">
+                <div class="movement" id="movement-1">
+                    <span class="movement-name">Squat</span>
+                    <div class="movement-indicator"></div>
+                </div>
+                <div class="movement" id="movement-2">
+                    <span class="movement-name">Lunge</span>
+                    <div class="movement-indicator"></div>
+                </div>
+                <div class="movement" id="movement-3">
+                    <span class="movement-name">Toe Touch</span>
+                    <div class="movement-indicator"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Camera feed for Teachable Machine -->
+        <div class="camera-container">
+            <div id="webcam-container"></div>
+            <div id="label-container"></div>
+        </div>
+    </div>
+
+    <!-- Teachable Machine library -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/pose@0.8/dist/teachablemachine-pose.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
