@@ -16,7 +16,7 @@ let enemyHealth = 100;
 
 let playerMana = 0;
 let maxMana = 100;
-let lastReadStepCount = 0;
+let lastReadStepCount = parseInt(localStorage.getItem("lastStepCount")) || 0;
 let manaPerStep = 2; // How much mana per step IMPORTANT
 let manaCostPerSpell = 25; // Mana cost for casting a spell IMPORTANT
 
@@ -67,6 +67,7 @@ async function updateManaFromSteps() {
     if (newSteps > 0) {
         // Update the last read count
         lastReadStepCount = currentStepCount;
+        localStorage.setItem("lastStepCount", lastReadStepCount);
         
         // Add mana based on steps
         const manaGained = newSteps * manaPerStep;
