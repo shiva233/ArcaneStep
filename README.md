@@ -1,4 +1,4 @@
-#🧙‍♂️ ArcaneStep 🧙‍♂️
+# 🧙‍♂️ ArcaneStep 🧙‍♂️
 
 ## ArcaneStep Inspiration 🧙‍♂️ 
 According to the Canadian Paediatric Society, nearly all children in Canada are exposed to screens by the age of 2, and only 15% of Canadian children aged 3 to 4 meet screen time guidelines of less than an hour per day. On the contrary, SickKids says, "Screen time is an important and unavoidable part of your child's life…". This is why we decided to create a game that incorporates outdoor physical activity and taking breaks from the screen into the core gameplay.
