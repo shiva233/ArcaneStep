@@ -1,5 +1,5 @@
 # 🧙‍♂️ ArcaneStep 🧙‍♂️
-2nd Place at [Eureka Hacks 2025](https://eurekahacks.ca/) https://eurekahacks.ca/
+2nd Place at [Eureka Hacks 2025](https://eurekahacks.ca/) 
 
 ## ArcaneStep Inspiration 🧙‍♂️ 
 According to the Canadian Paediatric Society, nearly all children in Canada are exposed to screens by the age of 2, and only 15% of Canadian children aged 3 to 4 meet screen time guidelines of less than an hour per day. Along with this, SickKids stated in an article, "Screen time is an important and unavoidable part of your child's life…". This is why we decided to create a game that incorporates outdoor physical activity and taking breaks from the screen into the core gameplay.
